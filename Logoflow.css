@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(78, 71, 255, 5%);
+    background-color: #f5f8ff;
 }
 
 .default-clr{
@@ -152,6 +152,10 @@ nav h2{
     font-size: 16px;
 }
 
+.picrev img{
+    border-radius: 50%;
+}
+
 .rev-name{
     font-size: 16px;
     font-weight: 700;
@@ -196,3 +200,54 @@ nav h2{
 .conpic{
     border-radius: 25px;
 }
+
+.touch-get{
+    margin: 0 150px 20px;
+    padding: 70px 0;
+}
+
+.touch-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toutile{
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.tormlab{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="email"], input[type="text"]{
+    height: 70px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+textarea{
+    height: 170px;
+    width: 100%;
+    display: block;
+    margin: 10px 0 25px 0;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 10px;
+}
+
