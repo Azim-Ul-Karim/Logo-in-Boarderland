@@ -5,7 +5,7 @@
 }
 
 body{
-    /* background-color: #f6f6f3; */
+    /* background-color: rgb(78, 71, 255, 5%); */
 }
 
 .default-clr{
@@ -26,6 +26,10 @@ body{
     font-family: Raleway;
 }
 
+.base-font{
+    font-family: Inter;
+}
+
 .pad-btn{
     padding: 12px 36px;
 }
@@ -42,7 +46,6 @@ nav{
 }
 
 nav h2{
-    font-family: Inter;
     font-size: 34px;
     font-weight: 900;
 }
@@ -80,4 +83,35 @@ nav h2{
 
 .action img{
     border-radius: 40px;
+}
+
+.users{
+    text-align: center;
+    margin: 0 140px;
+    padding: 50px;
+    background-color: rgb(78, 71, 255, 10%);
+    border-radius: 20px;
+}
+
+.ustile{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.user-count{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.user-info{
+    font-size: 20px;
+    color: rgb(0, 0, 0, 50%);
 }
