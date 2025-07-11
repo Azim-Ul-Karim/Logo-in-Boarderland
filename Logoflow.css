@@ -5,7 +5,7 @@
 }
 
 body{
-    /* background-color: rgb(78, 71, 255, 5%); */
+    background-color: rgb(78, 71, 255, 5%);
 }
 
 .default-clr{
@@ -114,4 +114,57 @@ nav h2{
 .user-info{
     font-size: 20px;
     color: rgb(0, 0, 0, 50%);
+}
+
+.reviews{
+    margin: 140px;
+}
+
+.revile{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.review{
+    padding: 24px;
+    background-color: #fbfdff;
+    border-radius: 10px;
+}
+
+.revimg{
+    margin-bottom: 24px;
+}
+
+.retite{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.renfo{
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.rev-name{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.rev-date{
+    font-size: 16px;
+    color: #838383;
+}
+
+.rater{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
