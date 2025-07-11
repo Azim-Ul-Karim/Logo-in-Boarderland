@@ -12,6 +12,14 @@ body{
     color: #4E47FF;
 }
 
+.defont{
+    font-family: Raleway;
+}
+
+.base-font{
+    font-family: Inter;
+}
+
 .primary-btn{
     background-color: #4E47FF;
     color: white;
@@ -24,17 +32,9 @@ body{
     transition: background-color 1s ease, color 1s ease;
 }
 
-button:hover {
+button:hover{
     background-color: goldenrod;
     color: black;
-}
-
-.defont{
-    font-family: Raleway;
-}
-
-.base-font{
-    font-family: Inter;
 }
 
 .pad-btn{
@@ -89,11 +89,7 @@ nav h2{
 }
 
 .action img{
-    /* width: 100%;
-    height: auto; */
     border-radius: 40px;
-    /* margin: 0 auto; */
-    /* display: block; */
 }
 
 .users{
@@ -163,6 +159,12 @@ nav h2{
     font-size: 16px;
 }
 
+.rater{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .picrev img{
     border-radius: 50%;
 }
@@ -176,12 +178,6 @@ nav h2{
 .rev-date{
     font-size: 16px;
     color: #838383;
-}
-
-.rater{
-    display: flex;
-    gap: 10px;
-    align-items: center;
 }
 
 .content{
@@ -209,11 +205,11 @@ nav h2{
 }
 
 .conpic{
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 25px;
     margin: 0 auto;
-    display: block;
 }
 
 .touch-get{
@@ -249,9 +245,9 @@ input[type="email"], input[type="text"]{
 }
 
 textarea{
+    display: block;
     height: 170px;
     width: 100%;
-    display: block;
     margin: 10px 0 25px 0;
     padding: 20px 30px;
     border: 1px solid rgb(0, 0, 0, 5%);
@@ -269,7 +265,7 @@ input[type="submit"]{
     transition: background-color 1s ease, color 1s ease;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover{
     background-color: goldenrod;
     color: black;
 }
